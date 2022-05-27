@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  background: #3F46F1;
+  border: 5px solid #000AF7;
+  box-shadow: 5px 8px 10px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+.controller {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  width: 150px;
+  height: 150px;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+
+.board-game {
+  width: 360px;
+  height: 360px;
+  background: #C4C4C4;
+  border: 5px solid #000AF7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 25px;
+
+  position: relative;
+  border: 1px solid #000
+}
+
+.red {
+  position: absolute;
+  background: #FF0000;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+
+.black {
+  position: absolute;
+  filter: blur(5px);
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.Key {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48.41px;
+  width: 50px;
+  height: 50px;
+  background: #000AF7;
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
